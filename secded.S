@@ -14,5 +14,7 @@
 
 		;		Your code here
 
-data	DCD		0xfa00bff0cc00fadd
-send    FILL    12
+data		DCD		0xfa00bff0cc00fadd
+send   	FILL    	12
+
+		adr		r0, data
